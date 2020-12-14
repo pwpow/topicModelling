@@ -2,7 +2,7 @@ import numpy as np, vocabulary, string, nltk.data, sys, codecs, json, time
 from nltk.tokenize import sent_tokenize
 from lda import lda_gibbs_sampling
 from datetime import datetime
-from sklearn.cross_validation import train_test_split, StratifiedKFold
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from nltk.stem import WordNetLemmatizer
 from sklearn.datasets import dump_svmlight_file, load_svmlight_file
 from sklearn.utils import shuffle

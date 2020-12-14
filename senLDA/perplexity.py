@@ -1,7 +1,7 @@
 import numpy as np, vocabulary_sentenceLayer, string, nltk.data, sys, codecs, json, time
 from nltk.tokenize import sent_tokenize
 from lda_sentenceLayer import lda_gibbs_sampling1
-from sklearn.cross_validation import train_test_split, StratifiedKFold
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from nltk.stem import WordNetLemmatizer
 from sklearn.utils import shuffle
 from functions import *
